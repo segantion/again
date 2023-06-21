@@ -357,7 +357,7 @@
 		"strength": 9,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Heavy Infantry",
 		"uniques": ["[+35]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -371,7 +371,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Heavy Infantry",
 		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+15]% Strength <vs [Mounted] units>"],
 		"promotions": ["Pictish Courage"],
@@ -620,7 +620,7 @@
 		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "Ballistics",
-		"obsoleteTech": "Computers",
+		"obsoleteTech": "Rocketry",
 		"upgradesTo": "Heavy Weapons",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
@@ -634,7 +634,7 @@
 		"rangedStrength": 70,
 		"cost": 375,
 		"requiredTech": "Rocketry",
-		"obsoleteTech": "Telecommunications",
+		"obsoleteTech": "Lasers",
 		"upgradesTo": "Modern Heavy Weapons",
 		"attackSound": "machinegun"
 	},
@@ -705,7 +705,7 @@
 		"range": 2,
 		"cost": 40,
 		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
+		"obsoleteTech": "Civil Service",
 		"uniques": ["[-20]% Strength <vs [Infantry] units>"]
 		"upgradesTo": "Skirmisher",
 		"attackSound": "arrow"
@@ -1056,7 +1056,7 @@
 		"strength": 10,
 		"cost": 75,
 		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Physics",
 		"upgradesTo": "Medieval Siege Tower",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight"],
 		"promotions":  ["Cover I"],
@@ -1531,7 +1531,7 @@
 		"cost": 100,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"obsoleteTech": "Steel",
 		"promotions": ["Great Generals II"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles","[+10]% Strength <when attacking>"],
@@ -1548,7 +1548,7 @@
 		"cost": 90,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>","[+10]% Strength <when attacking>"],
 		"hurryCostModifier": 20,
@@ -1606,7 +1606,7 @@
 		"strength": 25,
 		"cost": 200,
 		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"requiredResource": "Iron",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","[+10]% Strength <when attacking>"],
@@ -1625,7 +1625,7 @@
 		"requiredResource": "Iron",
 		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Landship",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Combustion",
 		"attackSound": "horse"
 	},
 	{
@@ -1841,7 +1841,7 @@
 		"range": 2,
 		"cost": 200,
 		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Ballistics",
 		"requiredResource": "Horses",
 		"upgradesTo": "Self Propelled Gun",
 		"uniques": ["No defensive terrain bonus","[-20]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
@@ -2509,7 +2509,7 @@
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
 		"upgradesTo": "Battleship",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Electronics",
 		"promotions": ["Indirect Fire"],
 		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit","[+50]% Strength <vs cities>"],
 		"attackSound": "shipguns"
