@@ -327,6 +327,20 @@
 		"uniques": ["Infantry"],
 		"attackSound": "shot"
 	},
+        {
+                "name": "Sturmtruppen",
+                "unitType": "Gunpowder",
+                "replaces": "Great War Infantry",
+                "uniqueTo": "Germany",
+                "movement": 2,
+                "strength": 50,
+                "cost": 320,
+                "requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Pharmaceuticals",
+                "uniques": ["[+25]% Strength <when attacking>", "Infantry"],
+                "attackSound": "shot"             
+        },  
 	{
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
