@@ -255,7 +255,22 @@
 		"uniques": ["Infantry"],
 		"attackSound": "shot"
 	},
-	{
+        {
+                "name": "Redcoat",
+                "unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "England",
+                "movement": 2,
+                "strength": 36,
+                "cost": 225,
+                "requiredTech": "Rifling",
+                "obsoleteTech": "Replaceable Parts",
+                "upgradesTo": "Great War Infantry",
+                "promotions": ["Amphibious"],
+                "uniques": ["Infantry", "[+33]% Strength <on foreign continents>"],
+                "attackSound": "shot"
+        },
+        {
 		"name": "Norwegian Ski Infantry",
 		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
@@ -851,7 +866,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Never appears as a Barbarian unit"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
 		"obsoleteTech": "Rifling",
@@ -865,7 +880,7 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
 		"obsoleteTech": "Radar",
@@ -879,7 +894,7 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [5] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "May Paradrop up to [5] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
 	},
@@ -1018,7 +1033,7 @@
 		"upgradesTo": "Modern Marine",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -1029,7 +1044,7 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "machinegun"
 	},
 
