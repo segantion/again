@@ -541,18 +541,6 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
-        {
-                "name": "Imperial Guard",
-                "unitType": "Gunpowder",
-                "replaces": "Line Infantry",
-                "uniqueTo": "France",
-                "movement": 2,
-                "strength": 38,
-                "cost": 225,
-                "requiredTech": "Rifling",
-                "obsoleteTech": "Ballistics",
-                "upgradesTo":
-
 	{
 		"name": "Anti-Tank Gun",
 		"unitType": "Gunpowder",
