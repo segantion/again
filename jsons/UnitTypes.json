@@ -92,6 +92,11 @@
         "name": "Counter Cavalry",
         "movementType": "Land"
     },
+    {
+        "name": "Mounted Ranged",
+        "uniques": ["[-20]% Strength <vs [Infantry] units>"],
+        "movementType": "Land",
+    },
 
     //specialist
 
