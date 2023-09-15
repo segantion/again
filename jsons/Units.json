@@ -538,7 +538,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Ballistics",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>" "Never appears as a Barbarian unit"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
         {
