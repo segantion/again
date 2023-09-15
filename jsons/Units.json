@@ -1048,7 +1048,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Defense bonus when embarked", "[+1] Movement <when [Embarked]"],
+		"uniques": ["Defense bonus when embarked", "[+1] Movement <when [Embarked]>"],
 		"upgradesTo": "Marine",
 		"attackSound": "shot"
 	},
