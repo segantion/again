@@ -1048,7 +1048,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Defense bonus when embarked"],
+		"uniques": ["Defense bonus when embarked", "[+1] Movement <when [Embarked]"],
 		"upgradesTo": "Marine",
 		"attackSound": "shot"
 	},
@@ -1062,7 +1062,7 @@
 		"upgradesTo": "Modern Marine",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "[+2] Movement <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -1073,7 +1073,7 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "[+2] Movement <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "machinegun"
 	},
 
