@@ -273,7 +273,6 @@
         {
                 "name": "Imperial Guard",
                 "unitType": "Gunpowder",
-                "replaces": "Rifleman",
                 "uniqueTo": "France",
                 "movement": 2,
                 "strength": 34,
@@ -1048,7 +1047,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Defense bonus when embarked", "[+1] Movement <when [Embarked]>"],
+		"uniques": ["Defense bonus when embarked", "[+1] Movement <when [Embarked]"],
 		"upgradesTo": "Marine",
 		"attackSound": "shot"
 	},
