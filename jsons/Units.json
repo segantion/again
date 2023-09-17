@@ -1496,6 +1496,7 @@
 		"strength": 50,
 		"cost": 375,
 		"requiredTech": "Railroads",
+		"requiredResource": "Oil",
 		"upgradesTo": "Armored Infantry",
 		"obsoleteTech": "Combined Arms",
                 "uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
@@ -1509,6 +1510,7 @@
 		"cost": 450,
 		"requiredTech": "Combined Arms",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+		"requiredResource": "Oil",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "tankshot"
@@ -1520,6 +1522,7 @@
 		"strength": 90,
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -2315,7 +2318,7 @@
 		"strength": 40,
 		"cost": 250,
 		"requiredTech": "Steam Power",
-		"requiredResource": "Coal",
+		"requiredResource": "Iron",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
 		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit", "Can see invisible [Water] units"],
