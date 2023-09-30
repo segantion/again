@@ -271,20 +271,6 @@
                 "attackSound": "shot"
         },
         {
-                "name": "Imperial Guard",
-                "unitType": "Gunpowder",
-                "uniqueTo": "France",
-                "movement": 2,
-                "strength": 34,
-                "cost": 225,
-                "requiredTech": "Rifling",
-                "obsoleteTech": "Replaceable Parts",
-                "upgradesTo": "Great War Infantry",
-                "promotions": ["Home Sweet Home"],
-                "uniques": ["Infantry", "[+15]% Strength <when fighting in [Friendly Land] tiles>"],
-                "attackSound": "shot"
-        },
-        {
 		"name": "Norwegian Ski Infantry",
 		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
@@ -352,6 +338,7 @@
                 "requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Pharmaceuticals",
+                "promotions": ["Charge"],
                 "uniques": ["[+25]% Strength <when attacking>", "Infantry"],
                 "attackSound": "shot"             
         },  
@@ -535,11 +522,37 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Ballistics",
+		"obsoleteTech": "Railroads",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
+        {
+                "name": "Imperial Guard",
+                "unitType": "Gunpowder",
+                "replaces": "Line Infantry",
+                "uniqueTo": "France",
+                "movement": 2,
+                "strength": 34,
+                "cost": 225,
+                "requiredTech": "Rifling",
+                "obsoleteTech": "Replaceable Parts",
+                "upgradesTo": "Great War Infantry",
+                "promotions": ["Home Sweet Home"],
+                "uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>", "[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
+                "attackSound": "shot"
+        },
+        {
+                "name": "Anti-Tank Rifle",
+                "unitType": "Gunpowder",
+                "movement": 2,
+                "strength": 37,
+                "cost": 255,
+                "requiredTech": "Railroads",
+                "obsoleteTech": "Ballistics",
+                "uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
+                "attackSound": "shot"
+        },
 	{
 		"name": "Anti-Tank Gun",
 		"unitType": "Gunpowder",
@@ -573,6 +586,18 @@
 		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
 		"attackSound": "missile"
 	},
+        {
+                "name": "AT-4",
+                "unitType": "Gunpowder",
+                "replaces": "Modern AT Missile",
+                "uniqueTo": "Sweden",
+                "movement": 2,
+                "strength": 75,
+                "cost": 405,
+                "requiredTech": "Lasers",
+                "uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
+                "attackSound": "missile"
+        },
 
 	//rangedA
 	{
@@ -1957,7 +1982,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit", "[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Anti-Tank Gun",
+		"upgradesTo": "Tank Destroyer",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
