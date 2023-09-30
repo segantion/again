@@ -550,6 +550,7 @@
                 "cost": 255,
                 "requiredTech": "Railroads",
                 "obsoleteTech": "Ballistics",
+		"upgradesTo": "Anti-Tank Gun",
                 "uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
                 "attackSound": "shot"
         },
