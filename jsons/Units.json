@@ -523,7 +523,7 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Railroads",
-		"upgradesTo": "Anti-Tank Gun",
+		"upgradesTo": "Anti-Tank Rifle",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -537,7 +537,7 @@
                 "cost": 225,
                 "requiredTech": "Rifling",
                 "obsoleteTech": "Replaceable Parts",
-                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Anti-Tank Rifle",
                 "promotions": ["Home Sweet Home"],
                 "uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>", "[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
                 "attackSound": "shot"
