@@ -147,7 +147,7 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"promotions": ["[Mohawk Warrior] ability"],
@@ -162,7 +162,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
@@ -171,7 +171,7 @@
 		"name": "Samurai",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
-		"uniqueTo": "Japan",
+		"uniqueTo": "Japan", #
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -180,7 +180,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"promotions": ["[Samurai] ability", "Great Generals II"],
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "metalhit"
 		//Samurai should also create Fishing Boats (not now, surely)
 	},
@@ -197,7 +197,7 @@
 		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Iron",
 		"promotions": ["[Berserker] ability"],
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
@@ -211,7 +211,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -225,7 +225,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -240,7 +240,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["[Janissary] ability"],
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -252,7 +252,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
         {
@@ -267,7 +267,7 @@
                 "obsoleteTech": "Replaceable Parts",
                 "upgradesTo": "Great War Infantry",
                 "promotions": ["Amphibious"],
-                "uniques": ["Infantry", "[+33]% Strength <on foreign continents>"],
+                "uniques": ["Infantry", "[+33]% Strength <on foreign continents>"], "[+15]% Strength <vs [Anti Cavalry] units>"],
                 "attackSound": "shot"
         },
         {
@@ -282,7 +282,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["[Norwegian Ski Infantry] ability"],
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -297,7 +297,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["[Carolean] ability"],
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -312,7 +312,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["Home Sweet Home"],
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -324,7 +324,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Pharmaceuticals",
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
         {
@@ -338,8 +338,7 @@
                 "requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Pharmaceuticals",
-                "promotions": ["Charge"],
-                "uniques": ["[+25]% Strength <when attacking>", "Infantry"],
+                "uniques": ["[+25]% Strength <when attacking>", "Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
                 "attackSound": "shot"             
         },  
 	{
@@ -353,7 +352,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Pharmaceuticals",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Infantry"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -365,7 +364,7 @@
 		"requiredTech": "Pharmaceuticals",
 		"upgradesTo": "Modern Infantry",
 		"obsoleteTech": "Telecommunications",
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
 	{
@@ -375,26 +374,26 @@
 		"strength": 80,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"uniques": ["Infantry"],
+		"uniques": ["Infantry"], "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "machinegun"
 	},
 
-	//anticav
+	//Anti Cavalry
 	{
 		"name": "Spearman",
-		"unitType": "Sword",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 9,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Heavy Infantry",
-		"uniques": ["[+35]% Strength <vs [Mounted] units>", "[+35]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+35]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Pictish Warrior",
-		"unitType": "Sword",
+		"unitType": "Anti Cavalry",
 		"replaces": "Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
@@ -403,13 +402,13 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Heavy Infantry",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+15]% Strength <vs [Mounted] units>", "[+15]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "[+15]% Strength <vs [Mounted] units>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Marauder",
-		"unitType": "Sword",
+		"unitType": "Anti Cavalry",
 		"replaces": "Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
@@ -418,24 +417,24 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+30]% Strength <vs [Mounted] units>", "[+30]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+30]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Heavy Infantry",
-		"unitType": "Sword",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 12,
 		"cost": 70,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+35]% Strength <vs [Mounted] units>", "[+35]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+35]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Hoplite",
-		"unitType": "Sword",
+		"unitType": "Anti Cavalry",
 		"replaces": "Spearman",
 		"uniqueTo": "Greece",
 		"movement": 2,
@@ -444,12 +443,12 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+35]% Strength <vs [Mounted] units>", "[+35]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+35]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Persian Immortal",
-		"unitType": "Sword",
+		"unitType": "Anti Cavalry",
 		"replaces": "Spearman",
 		"uniqueTo": "Persia",
 		"movement": 2,
@@ -458,32 +457,32 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+35]% Strength <vs [Mounted] units>", "[+35]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+35]% Strength <vs [Mounted] units>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
 	{
 		"name": "Pikeman",
-		"unitType": "Sword",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Pike and Shot",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit" 
 	},
 	{
 		"name": "Landsknecht",
-		"unitType": "Sword",
+		"unitType": "Anti Cavalry",
 		"replaces": "Pikeman",
 		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Can move immediately once bought"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought"],
 		"upgradesTo": "Pike and Shot",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -491,19 +490,19 @@
 	},
 	{
 		"name": "Pike and Shot",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 20,
 		"cost": 160,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Tercio",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Cavalry",
 		"replaces": "Pike and Shot",
 		"uniqueTo": "Spain",
 		"movement": 2,
@@ -512,51 +511,24 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Line Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Railroads",
-		"upgradesTo": "Anti-Tank Rifle",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
+		"obsoleteTech": "Ballistics",
+		"upgradesTo": "Anti-Tank Gun",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
-        {
-                "name": "Imperial Guard",
-                "unitType": "Gunpowder",
-                "replaces": "Line Infantry",
-                "uniqueTo": "France",
-                "movement": 2,
-                "strength": 34,
-                "cost": 225,
-                "requiredTech": "Rifling",
-                "obsoleteTech": "Railroads",
-                "upgradesTo": "Anti-Tank Rifle",
-                "promotions": ["Home Sweet Home"],
-                "uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>", "[+50]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Mounted Ranged] units>", "Never appears as a Barbarian unit"],
-                "attackSound": "shot"
-        },
-        {
-                "name": "Anti-Tank Rifle",
-                "unitType": "Gunpowder",
-                "movement": 2,
-                "strength": 37,
-                "cost": 255,
-                "requiredTech": "Railroads",
-                "obsoleteTech": "Ballistics",
-		"upgradesTo": "Anti-Tank Gun",
-                "uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
-                "attackSound": "shot"
-        },
 	{
 		"name": "Anti-Tank Gun",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 40,
 		"cost": 300,
@@ -568,7 +540,7 @@
 	},
 	{
 		"name": "Bazooka",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 60,
 		"cost": 375,
@@ -579,7 +551,7 @@
 	},
 	{
 		"name": "Modern AT Missile",
-		"unitType": "Gunpowder",
+		"unitType": "Anti Cavalry",
 		"movement": 2,
 		"strength": 70,
 		"cost": 425,
@@ -587,18 +559,6 @@
 		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
 		"attackSound": "missile"
 	},
-        {
-                "name": "AT-4",
-                "unitType": "Gunpowder",
-                "replaces": "Modern AT Missile",
-                "uniqueTo": "Sweden",
-                "movement": 2,
-                "strength": 75,
-                "cost": 405,
-                "requiredTech": "Lasers",
-                "uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
-                "attackSound": "missile"
-        },
 
 	//rangedA
 	{
@@ -920,7 +880,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
-		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Never appears as a Barbarian unit"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
 		"obsoleteTech": "Rifling",
@@ -934,7 +894,7 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
 		"obsoleteTech": "Radar",
@@ -948,7 +908,7 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>", "May Paradrop up to [5] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "May Paradrop up to [5] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
 	},
@@ -1073,7 +1033,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["Defense bonus when embarked", "[+1] Movement <when [Embarked]>"],
+		"uniques": ["Defense bonus when embarked"],
 		"upgradesTo": "Marine",
 		"attackSound": "shot"
 	},
@@ -1087,7 +1047,7 @@
 		"upgradesTo": "Modern Marine",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "[+2] Movement <when [Embarked]>", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "shot"
 	},
 	{
@@ -1098,14 +1058,14 @@
 		"cost": 450,
 		"requiredTech": "Mobile Tactics",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "[+2] Movement <when [Embarked]>", "Defense bonus when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "Defense bonus when embarked"],
 		"attackSound": "machinegun"
 	},
 
 	//siegeA
 	{
 		"name": "Siege Ram",
-		"unitType": "Sword", 
+		"unitType": "MeleeSiege",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -1118,7 +1078,7 @@
 	},
 	{
 		"name": "Battering Ram",
-		"unitType": "Sword",
+		"unitType": "MeleeSiege",
 		"uniqueTo": "The Huns",
 		"replaces": "Siege Ram",
 		"movement": 2,
@@ -1133,7 +1093,7 @@
 	},
 	{
 		"name": "Medieval Siege Tower",
-		"unitType": "Sword", 
+		"unitType": "MeleeSiege",
 		"movement": 2,
 		"strength": 20,
 		"cost": 120,
@@ -1145,7 +1105,7 @@
 	},
 	{
 		"name": "Grenadier",
-		"unitType": "Gunpowder",
+		"unitType": "MeleeSiege",
 		"movement": 2,
 		"strength": 25,
 		"cost": 200,
@@ -1157,7 +1117,7 @@
 	},
 	{
 		"name": "Demolition Sapper",
-		"unitType": "Gunpowder",
+		"unitType": "MeleeSiege",
 		"movement": 2,
 		"strength": 30,
 		"cost": 225,
@@ -1169,7 +1129,7 @@
 	},
 	{
 		"name": "Flamethrower",
-		"unitType": "Gunpowder",
+		"unitType": "MeleeSiege",
 		"movement": 2,
 		"strength": 45,
 		"cost": 225,
@@ -1181,7 +1141,7 @@
 	},
 	{
 		"name": "Commando",
-		"unitType": "Gunpowder",
+		"unitType": "MeleeSiege",
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
@@ -1193,7 +1153,7 @@
 	},
 	{
 		"name": "Modern Commando",
-		"unitType": "Gunpowder",
+		"unitType": "MeleeSiege",
 		"movement": 2,
 		"strength": 70,
 		"cost": 425,
@@ -1205,7 +1165,7 @@
 	//siegeB
 	{
 		"name": "Catapult",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 8,
@@ -1220,7 +1180,7 @@
 	},
 	{
 		"name": "Ballista",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"replaces": "Catapult",
 		"uniqueTo": "Rome",
 		"movement": 2,
@@ -1237,7 +1197,7 @@
 	},
 	{
 		"name": "Trebuchet",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength": 14,
@@ -1250,7 +1210,7 @@
 	},
 	{
 		"name": "Hwach'a",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"replaces": "Trebuchet",
 		"uniqueTo": "Korea",
 		"movement": 2,
@@ -1265,7 +1225,7 @@
 	},
 	{
 		"name": "Bombard Cannon",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 20,
@@ -1278,7 +1238,7 @@
 	},
 	{
 		"name": "Great Bombard",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"uniqueTo": "The Ottomans",
 		"replaces": "Bombard Cannon",
 		"movement": 2,
@@ -1293,7 +1253,7 @@
 	},
 	{
 		"name": "Artillery",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"movement": 2,
 		"strength": 21,
 		"rangedStrength": 28,
@@ -1309,7 +1269,7 @@
 	},
 	{
 		"name": "Heavy Howitzer",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"movement": 2,
 		"strength": 33,
 		"rangedStrength": 40,
@@ -1324,7 +1284,7 @@
 	},
 	{
 		"name": "Rocket Artillery",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"movement": 2,
 		"strength": 45,
 		"rangedStrength": 60,
@@ -1338,7 +1298,7 @@
 	},
 	{
 		"name": "Missile Artillery",
-		"unitType": "Siege",
+		"unitType": "RangedSiege",
 		"movement": 2,
 		"strength": 55,
 		"rangedStrength": 70,
@@ -1522,10 +1482,9 @@
 		"strength": 50,
 		"cost": 375,
 		"requiredTech": "Railroads",
-		"requiredResource": "Oil",
 		"upgradesTo": "Armored Infantry",
 		"obsoleteTech": "Combined Arms",
-                "uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "Machine Gun"
 	},
 	{
@@ -1536,7 +1495,6 @@
 		"cost": 450,
 		"requiredTech": "Combined Arms",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
-		"requiredResource": "Oil",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "tankshot"
@@ -1548,7 +1506,6 @@
 		"strength": 90,
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
-		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -1781,7 +1738,7 @@
 	//ranged cav
 	{
 		"name": "Chariot Archer",
-		"unitType": "Mounted Ranged",
+		"unitType": "Archery",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -1795,7 +1752,7 @@
 	},
 	{
 		"name": "War Chariot",
-		"unitType": "Mounted Ranged",
+		"unitType": "Archery",
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
 		"movement": 5,
@@ -1810,7 +1767,7 @@
 	},
 	{
 		"name": "War Elephant",
-		"unitType": "Mounted Ranged",
+		"unitType": "Archery",
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -1825,7 +1782,7 @@
 	},
 	{
 		"name": "Horse Archer",
-		"unitType": "Mounted Ranged",
+		"unitType": "Archery",
 		"uniqueTo": "The Huns",
 		"replaces": "Chariot Archer",
 		"movement": 4,
@@ -1842,7 +1799,7 @@
 	},
 	{
 		"name": "Bow Rider",
-		"unitType": "Mounted Ranged",
+		"unitType": "Archery",
 		"movement": 5,
 		"strength": 8,
 		"rangedStrength": 12,
@@ -1856,7 +1813,7 @@
 	},
 	{
 		"name": "Heavy Horse Archer",
-		"unitType": "Mounted Ranged",
+		"unitType": "Archery",
 		"movement": 5,
 		"strength": 13,
 		"rangedStrength": 17,
@@ -1870,7 +1827,7 @@
 	},
 	{
 		"name": "Camel Archer",
-		"unitType": "Mounted Ranged",
+		"unitType": "Archery",
 		"replaces": "Heavy Horse Archer",
 		"uniqueTo": "Arabia",
 		"movement": 4,
@@ -1887,7 +1844,7 @@
 	},
 	{
 		"name": "Keshik",
-		"unitType": "Mounted Ranged",
+		"unitType": "Archery",
 		"replaces": "Heavy Horse Archer",
 		"uniqueTo": "Mongolia",
 		"range": 2,
@@ -1906,7 +1863,7 @@
 	},
 	{
 		"name": "Horse Artillery",
-		"unitType": "Mounted Ranged",
+		"unitType": "Ranged Gunpowder",
 		"movement": 4,
 		"strength": 19,
 		"rangedStrength": 22,
@@ -1983,7 +1940,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit", "[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Tank Destroyer",
+		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
@@ -2132,7 +2089,7 @@
 		"strength": 70,
 		"rangedStrength": 70,
 		"range": 10,
-		"cost": 375,
+		"cost": 275,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"promotions": ["[B17] ability"],
@@ -2344,7 +2301,7 @@
 		"strength": 40,
 		"cost": 250,
 		"requiredTech": "Steam Power",
-		"requiredResource": "Iron",
+		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
 		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit", "Can see invisible [Water] units"],
@@ -2497,7 +2454,7 @@
 		"strength": 75,
 		"rangedStrength": 100,
 		"range": 3,
-		"interceptRange": 2,
+		"interceptRange": 3,
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can see invisible [Melee Water] units",
@@ -2587,6 +2544,23 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Yamato",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Japan",
+		"movement": 4,
+		"strength": 65,
+		"rangedStrength": 85,
+		"range": 3,
+		"cost": 500,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
+		"promotions": ["Indirect Fire"],
+		"obsoleteTech": "Advanced Ballistics",
+		"upgradesTo": "Arsenal Ship",
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
@@ -2598,6 +2572,23 @@
 		"requiredTech": "Electronics",
 		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
 		"promotions": ["Indirect Fire"],
+		"obsoleteTech": "Advanced Ballistics",
+		"upgradesTo": "Arsenal Ship",
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Tirpitz",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Germany",
+		"movement": 5,
+		"strength": 60,
+		"rangedStrength": 65,
+		"range": 3,
+		"cost": 400,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
+		"promotions": ["Indirect Fire"], ["Extended Range"],
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Arsenal Ship",
 		"attackSound": "shipguns"
