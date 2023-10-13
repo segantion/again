@@ -133,7 +133,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Infantry" "[+15]% Strength <vs [Anti Cavalry] units>"],
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -171,7 +171,7 @@
 		"name": "Samurai",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
-		"uniqueTo": "Japan", #
+		"uniqueTo": "Japan",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -267,7 +267,7 @@
                 "obsoleteTech": "Replaceable Parts",
                 "upgradesTo": "Great War Infantry",
                 "promotions": ["Amphibious"],
-                "uniques": ["Infantry", "[+33]% Strength <on foreign continents>"], "[+15]% Strength <vs [Anti Cavalry] units>"],
+                "uniques": ["Infantry", "[+33]% Strength <on foreign continents>", "[+15]% Strength <vs [Anti Cavalry] units>"],
                 "attackSound": "shot"
         },
         {
@@ -2588,7 +2588,7 @@
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
-		"promotions": ["Indirect Fire"], ["Extended Range"],
+		"promotions": ["Indirect Fire", "Extended Range"],
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Arsenal Ship",
 		"attackSound": "shipguns"
