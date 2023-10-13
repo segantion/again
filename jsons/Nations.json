@@ -3,7 +3,7 @@
 		"leaderName": "Elizabeth",
 		"adjective": ["English"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
+		"style": "British",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
