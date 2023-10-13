@@ -92,11 +92,6 @@
         "name": "Counter Cavalry",
         "movementType": "Land"
     },
-    {
-        "name": "Mounted Ranged",
-        "uniques": ["[-20]% Strength <vs [Infantry] units>"],
-        "movementType": "Land",
-    },
 
     //specialist
 
@@ -194,7 +189,10 @@
 
 
     //vanilla items
-
+    {
+	"name": "Anti Cavalry",
+	"movementType": "Land"
+    },
     {
         "name": "Sword",
         "movementType": "Land"
@@ -224,7 +222,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Siege",
+        "name": "MeleeSiege",
+        "movementType": "Land"
+    },
+    {
+        "name": "RangedSiege",
         "movementType": "Land"
     },
     {
