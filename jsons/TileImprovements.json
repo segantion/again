@@ -11,6 +11,6 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 5,
 		"techRequired": "Flight",
-		"uniques": ["Can be built outside your borders", "Can carry [3] [Aircraft] units"],
+		"uniques": ["Can be built outside your borders", "[1] free [Airfield] units appear"],
 	}
 ]
