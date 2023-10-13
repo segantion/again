@@ -51,12 +51,34 @@
 		"requiredTech": "Military Science",
 		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles", "Uncapturable", "Only available <if [Military Academy] is constructed>", "[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>"]
 	},
-{
-		"name": "Airfield",
+	{	
+		"name": "Engineer",
 		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 450,
+		"requiredTech": "Military Science",
+		"uniques": ["Uncapturable","[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>", "Can transform to [Airfield]","Can transform to [Land bunker]", "Can transform to [Airfield]"]
+	
+		
+	},
+	{
+		"name": "Airfield",
+		"unitType": "Til improvement",
 		"movement": 0,
 		"cost": 0,
-		"uniques": ["Uncapturable","Can carry [3] [Aircraft] units", "Unbuildable"]
+		"uniques": ["Uncapturable","Can carry [3] [Aircraft] units", "Unbuildable"],
+		"requiredTech": "Flight"
+	},
+	{
+		"name": "Land bunker",
+		"unitType": "Tile improvement",
+		"movement": 0,
+		"cost": 0,
+		"strength" 70,
+		"rangedStrength" 70,
+		"range" 2,
+		"uniques": ["Uncapturable", "Unbuildable", "Can only attack[land units] units",]
+		"requiredTech": "Military Science",
 	},
 	//Melee
 	{
