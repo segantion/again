@@ -301,6 +301,21 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "British Red coat",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "British Empire",
+		"movement": 2,
+		"strength": 35,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["Amphibious"],
+		"uniques": ["Infantry", "Founds a new city <on foreign continents>", "[+15]% Strength <vs [Anti Cavalry] units>"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Mehal Sefari",
 		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
@@ -1416,6 +1431,20 @@
 		"upgradesTo": "Dragoon",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Crusaders",
+		"unitType": "Mounted",
+		"uniqueTo": "British Empire",
+		"movement": 6,
+		"strength": 23,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Dragoon",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "horse"
 	},
 	{
@@ -2544,23 +2573,6 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Yamato",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Japan",
-		"movement": 4,
-		"strength": 65,
-		"rangedStrength": 85,
-		"range": 3,
-		"cost": 500,
-		"requiredResource": "Oil",
-		"requiredTech": "Electronics",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
-		"promotions": ["Indirect Fire"],
-		"obsoleteTech": "Advanced Ballistics",
-		"upgradesTo": "Arsenal Ship",
-		"attackSound": "shipguns"
-	},
-	{
 		"name": "Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
@@ -2577,6 +2589,39 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Yamato",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Japan",
+		"movement": 4,
+		"strength": 70,
+		"rangedStrength": 85,
+		"range": 3,
+		"cost": 500,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
+		"promotions": ["Indirect Fire"],
+		"obsoleteTech": "Advanced Ballistics",
+		"upgradesTo": "Arsenal Ship",
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "QUeen Elizabeth",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 65,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit", "Can carry [1] [Aircraft] units","[+50]% Strength <vs cities>"],
+		"promotions": ["Indirect Fire"],
+		"obsoleteTech": "Advanced Ballistics",
+		"upgradesTo": "Arsenal Ship",
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Tirpitz",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Germany",
@@ -2587,12 +2632,12 @@
 		"cost": 400,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>"],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs cities>","Can carry [1] [Aircraft] units",],
 		"promotions": ["Indirect Fire", "Extended Range"],
 		"obsoleteTech": "Advanced Ballistics",
 		"upgradesTo": "Arsenal Ship",
 		"attackSound": "shipguns"
-	},
+	}	
 	{
 		"name": "Arsenal Ship",
 		"unitType": "Ranged Water",
@@ -2701,6 +2746,17 @@
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit"]
 	},
 	{
+		"name": "Midway",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "America",
+		"movement": 5,
+		"strength": 45,
+		"cost": 375,
+		"requiredTech": "Electronics",
+		"upgradesTo": "Nuclear Carrier",
+		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units", "Never appears as a Barbarian unit"]
+	},
+	{
 		"name": "Nuclear Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
@@ -2710,5 +2766,17 @@
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
 		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Ballistic] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
+	}
+		{
+		"name": "Nimitz",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "America",
+		"movement": 6,
+		"strength": 70,
+		"interceptRange": 1,
+		"cost": 550,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"uniques": ["Cannot attack", "Can carry [5] [Aircraft] units", "Can carry [2] [Ballistic] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
 	}
 ]
