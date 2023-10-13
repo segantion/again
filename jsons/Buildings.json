@@ -21,7 +21,7 @@
 		"name": "Arsenal",
 		"cost": 300,
 		"cityStrength": 9,
-		"cityHealth": 25,
+			"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Metallurgy",
@@ -35,7 +35,34 @@
 		"specialistSlots": {"Entertainer": 1},
 		"maintenance": 2,
 		"requiredBuilding": "Colosseum",
-		"requiredTech": "Printing Press"
+		"requiredTech": "Printing Press",
+	},
+	{
+		"name": "Gas chambers",
+		"replaces": "Factory",
+		"uniqueTo": "Germany",
+		"cost": 400,
+		"production": 5,
+		"culture": 2,
+		"maintenance": 4,
+		"happiness": 3,
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Industrialization",
+		"requiredResource": "Coal"
+	},
+	
+	{
+		"name": "Gulag",
+            	"replaces": "Courthouse",
+           	"uniqueTo": "Russia",
+		"cost": 100,
+		"maintenance": 0,
+		"percentStatBonus": {"Happiness": 100},
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Mathematics"
 	},
 	{
 		"name": "Stadium",
