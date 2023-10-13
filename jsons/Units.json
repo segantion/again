@@ -74,9 +74,9 @@
 		"unitType": "Tile improvement",
 		"movement": 0,
 		"cost": 0,
-		"strength" 70,
-		"rangedStrength" 70,
-		"range" 2,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 2,
 		"uniques": ["Uncapturable", "Unbuildable", "Can only attack[land units] units",]
 		"requiredTech": "Military Science",
 	},
