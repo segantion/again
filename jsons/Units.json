@@ -2066,6 +2066,23 @@
 		"attackSound": "machinegun"
 	},
 	{
+		"name": "Spitfire",
+		"unitType": "Fighter",
+		"uniqueTo": "British Empire",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 55,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Jet Fighter",
+		"obsoleteTech": "Lasers",
+		"uniques": ["[75]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Atomic Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Jet Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
@@ -2116,7 +2133,7 @@
 		"uniqueTo": "America",
 		"movement": 1,
 		"strength": 70,
-		"rangedStrength": 70,
+		"rangedStrength": 80,
 		"range": 10,
 		"cost": 275,
 		"requiredTech": "Radar",
