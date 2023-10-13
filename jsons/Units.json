@@ -63,7 +63,7 @@
 	},
 	{
 		"name": "Airfield",
-		"unitType": "Til improvement",
+		"unitType": "Tile improvement",
 		"movement": 0,
 		"cost": 0,
 		"uniques": ["Uncapturable","Can carry [3] [Aircraft] units", "Unbuildable"],
