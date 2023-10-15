@@ -57,7 +57,7 @@
 		"movement": 2,
 		"cost": 450,
 		"requiredTech": "Military Science",
-		"uniques": ["Uncapturable","[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>", "Can transform to [Airfield]","Can transform to [Land bunker]", "Can transform to [Airfield]"]
+		"uniques": ["Uncapturable","[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>", "Can transform to [Airfield]","Can transform to [Land bunker]", "Can transform to [Coastal bunker]","Never appears as a Barbarian unit"]
 	
 		
 	},
@@ -81,8 +81,8 @@
 		"uniques": ["Uncapturable", "Unbuildable", "Can only attack[land units] units", "Cannot move", "Never appears as a Barbarian unit",
 			"[+65]% Strength <during the [Modern era]>",
 			"[+65]% rangedStrength <during the [Modern era]>",
-			"[+87.5]% Strength <during the [Atomic era]>",
-			"[+87.5]% rangedStrength <during the [Atomic era]>",
+			"[+87]% Strength <during the [Atomic era]>",
+			"[+87]% rangedStrength <during the [Atomic era]>",
 			"[+175]% Strength <during the [Information era]>",
 			"[+175]% rangedStrength <during the [Information era]>",
 			"[+280]% Strength <during the [Future era]>",
@@ -103,8 +103,8 @@
 			"Never appears as a Barbarian unit", 
 			"[+65]% Strength <during the [Modern era]>",
 			"[+65]% rangedStrength <during the [Modern era]>",
-			"[+87.5]% Strength <during the [Atomic era]>",
-			"[+87.5]% rangedStrength <during the [Atomic era]>",
+			"[+87]% Strength <during the [Atomic era]>",
+			"[+87]% rangedStrength <during the [Atomic era]>",
 			"[+175]% Strength <during the [Information era]>",
 			"[+175]% rangedStrength <during the [Information era]>",
 			"[+280]% Strength <during the [Future era]>",
