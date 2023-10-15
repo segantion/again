@@ -11,10 +11,7 @@
         "name": "Civilian Water",
         "movementType": "Water"
     },
-    {
-        "name": "Tile fortification",
-        "movementType": "Land"
-    },
+  
 
 	
     //infantry
