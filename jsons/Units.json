@@ -72,7 +72,7 @@
 	},
 	{
 		"name": "Land bunker",
-		"unitType": "Tile fortification",
+		"unitType": "Ranged Gunpowder",
 		"movement": 0,
 		"cost": 0,
 		"strength": 40,
@@ -92,7 +92,7 @@
 	},
 	{
 		"name": "Coastal bunker",
-		"unitType": "Tile fortification",
+		"unitType": "Ranged Gunpowder",
 		"movement": 0,
 		"cost": 0,
 		"strength": 40,
