@@ -63,7 +63,7 @@
 	},
 	{
 		"name": "Airfield",
-		"unitType": "Tile improvement",
+		"unitType": "Armored",
 		"movement": 0,
 		"cost": 0,
 		"uniques": ["Uncapturable", "Can carry [3] [Aircraft] units", "Unbuildable", "Cannot move",
@@ -72,7 +72,7 @@
 	},
 	{
 		"name": "Land bunker",
-		"unitType": "Tile improvement",
+		"unitType": "Armored",
 		"movement": 0,
 		"cost": 0,
 		"strength": 40,
@@ -92,7 +92,7 @@
 	},
 	{
 		"name": "Coastal bunker",
-		"unitType": "Tile improvement",
+		"unitType": "Armored",
 		"movement": 0,
 		"cost": 0,
 		"strength": 40,
