@@ -1,4 +1,4 @@
-[
+een[
 
 	//Civilians
 	{
@@ -2683,8 +2683,9 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "QUeen Elizabeth",
+		"name": "Queen Elizabeth",
 		"unitType": "Ranged Water",
+		"uniqueTo": "British empire"
 		"movement": 5,
 		"strength": 65,
 		"rangedStrength": 70,
