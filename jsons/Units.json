@@ -66,7 +66,7 @@
 		"unitType": "Tile improvement",
 		"movement": 0,
 		"cost": 0,
-		"uniques": ["Uncapturable", "Can carry [3] [Aircraft] units", "Unbuildable", "Cannot move",
+		"uniques": ["Uncapturable", "Can carry [5] [Aircraft] units", "Unbuildable", "Cannot move",
 			"Never appears as a Barbarian unit"],
 		"requiredTech": "Flight"
 	},
@@ -366,7 +366,7 @@
 		"replaces": "Rifleman",
 		"uniqueTo": "British Empire",
 		"movement": 2,
-		"strength": 35,
+		"strength": 36,
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
