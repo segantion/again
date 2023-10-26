@@ -2685,7 +2685,7 @@
 	{
 		"name": "Queen Elizabeth",
 		"unitType": "Ranged Water",
-		"uniqueTo": "British empire"
+		"uniqueTo": "British Empire",
 		"movement": 5,
 		"strength": 65,
 		"rangedStrength": 70,
