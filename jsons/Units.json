@@ -987,6 +987,24 @@
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
 	},
+	{
+		"name": "Probe Droid",
+		"unitType": "Recon",
+		"uniqueTo": "Galactic Empire",
+		"replaces": "scout",
+		"cost": 15,
+		"movement": 2,
+		"range": 1,
+		"strength": 7,
+		"rangedStrength": 10,
+		"uniques": ["[+1] Sight","Can pass through impassable tiles","Ignores terrain cost","No defensive terrain bonus","Ignores Zone of Control","May travel on Water tiles without embarking","Eliminates combat penalty for attacking across a coast","Eliminates combat penalty for attacking over a river","Can move after attacking"],
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Probe Droid",
+				"imageSize": 256 },
+			{"text": "Unique Galactic Empire Recon unit that can perform ranged attacks, has extra vision, and ignores costs for movement."}
+		]
+	},
 
 	//militia
 	{
