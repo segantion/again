@@ -940,7 +940,7 @@
 	//recon
 	{
 		"name": "Scout",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
@@ -951,7 +951,7 @@
 	},
 	{
 		"name": "Explorer",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
@@ -963,7 +963,7 @@
 	},
 	{
 		"name": "Ranger",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 20,
 		"rangedStrength": 25,
@@ -977,7 +977,7 @@
 	},
 	{
 		"name": "Spec Ops",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 60,
@@ -989,7 +989,7 @@
 	},
 	{
 		"name": "Probe Droid",
-		"unitType": "Recon",
+		"unitType": "Scout",
 		"uniqueTo": "Galactic Empire",
 		"replaces": "scout",
 		"cost": 15,
