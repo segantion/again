@@ -30,11 +30,7 @@
         "name": "Anti Cavalry",
         "movementType": "Land"
     },
-    {
-        "name": "Recon",
-	"uniques": ["Ignores terrain cost", "Can see invisible [Land] units"],
-        "movementType": "Land"
-    },
+
     {
         "name": "Paratrooper",
         "movementType": "Land"
@@ -217,6 +213,7 @@
     },
     {
         "name": "Scout",
+	"uniques": ["Ignores terrain cost", "Can see invisible [Land] units"],
         "movementType": "Land"
     },
     {
