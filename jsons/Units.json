@@ -431,6 +431,26 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Stormtrooper",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Galactic Empire",
+		"movement": 2,
+		"strength": 55,
+		"cost": 300,
+		"upgradesTo": "Trooper",
+		"obsoleteTech": "Pharmaceuticals",
+		"requiredTech": "Replaceable Parts",
+		"attackSound": "blasterhit",
+		"promotions": ["Stormtrooper Armor"],
+		 "uniques": ["[+25]% Strength <when attacking>", "Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
+		
+		{"extraImage": "TileSets/FantasyHex/Units/Stormtrooper",
+				"imageSize": 256 },
+			
+		]
+	},
+	{
 		"name": "Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1595,6 +1615,23 @@
 		"attackSound": "Machine Gun"
 	},
 	{
+		"name": "AT-ST",
+		"unitType": "Armored",
+		"replaces": "Armored Car",
+		"uniqueTo": "Galactic Empire",
+		"movement": 4,
+		"strength": 60,
+		"cost": 450,
+		"requiredTech": "Combined Arms",
+		"uniques": ["[+50]% Strength <vs [Infantry] units> <when attacking>","Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "heavyfire",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/AT-ST",
+				"imageSize": 256 },
+			{"text": "The Galactic Empire Heavy Mech deals even more damage to Infantry units, but has less movement than normal. They do not upgrade nor go obsolete."}
+		]
+	},
+	{
 		"name": "Armored Infantry",
 		"unitType": "Armored",
 		"movement": 4,
@@ -1830,6 +1867,26 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+	{
+		"name": "AT-AT",
+		"unitType": "Armored",
+		"replaces": "Modern Armor",
+		"uniqueTo": "Galactic Empire",
+		"movement": 3,
+		"strength": 110,
+		"interceptRange": 1,
+		"cost": 600,
+		"requiredResource": "Iron",
+		"requiredTech": "Lasers",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit","[50]% chance to intercept air attacks","[+50]% Strength <vs [Ranged] units> <when defending>"],
+		"attackSound": "heavyfire",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/AT-AT",
+				"imageSize": 256 },
+			{"text": "The Galactic Empire All Terrain Armored Transport is much stronger, can intercept Air attacks, and is very resistant to ranged units. However it costs more to produce and moves slower."}
+		]
+	},
+	{
 	{
 		"name": "Giant Death Robot",
 		"unitType": "Armored",
