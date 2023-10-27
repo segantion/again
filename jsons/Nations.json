@@ -26,4 +26,34 @@
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
-    }]
+    },{
+        "name": "Galactic Empire",
+        "leaderName": "Darth Vader",
+        "adjective": ["Imperial"],
+        "style": "Imperial",
+        "startBias": ["Plains"],
+        "preferredVictoryType": "Scientific",
+
+
+        "startIntroPart1": "It has come to my attention the fact that this land has valuable resources to the Empire. You are to investigate and obtain these resources.",
+        "startIntroPart2": "Do not fail me, Commander. If enemies of the Empire are found in this land, exterminate them.",
+
+        "declaringWar": "Your lack of foresight will be your demise.",
+        "attacked": "I will show you the power of the Dark Side.",
+        "defeated": "Noooooooo!",
+        "introduction": "I have altered the deal. Pray I do not alter it any further.",
+
+        "neutralHello": "...Speak",
+        "hateHello": "I am surprised you still live.",
+
+        "tradeRequest": "It would be unwise for you to enrage my master",
+
+        "outerColor": [245,245,245],
+        "innerColor": [10,10,10],
+        "uniqueName": "Imperial March",
+        "uniques": ["[+1 Science] from every [Mine]",
+        "[+1 Science] from every [Strategic resource]",
+        "+30% Strength when fighting City-State units and cities"],
+        "cities": ["Vos Complex","Dismon Complex","Damiron Complex","Alixer Complex","Daln Complex","Llona Complex","Malca Complex","Blackfall Complex","Tex Complex","Gaphol Complex","Thusaad Complex","Ekog Complex"]
+    }
+]
