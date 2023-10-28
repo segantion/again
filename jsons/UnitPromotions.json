@@ -250,5 +250,9 @@
 	{
 		"name": "Iron Curtain Force Field",
 		"uniques": ["[+50]% Strength <when defending>"]
+	},
+	{
+		"name": "Stormtrooper Armor",
+		"uniques": ["[+20]% Strength"]
 	}
 ]
