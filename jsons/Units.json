@@ -1624,8 +1624,6 @@
 		"uniques": ["[+50]% Strength <vs [Infantry] units> <when attacking>","Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
-		{"extraImage": "TileSets/FantasyHex/Units/AT-ST",
-				"imageSize": 256 },
 			{"text": "The Galactic Empire Heavy Mech deals even more damage to Infantry units, but has less movement than normal. They do not upgrade nor go obsolete."}
 		]
 	},
