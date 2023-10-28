@@ -2298,6 +2298,22 @@
 
 	//heli
 	{
+		"name": "Death star",
+		"unitType": "Helicopter",
+		"movement": 20,
+		"strength": 500,
+		"uniqueTo": "Galactic Empire",
+		"rangedStrength": 300,
+		"range": 10,
+		"cost": 15000,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["[+30]% Strength <vs [City] units>", "No defensive terrain bonus",
+			"All tiles cost 1 movement", "Ignores Zone of Control","Must set up to ranged attack", "Unable to capture cities", "Never appears as a Barbarian unit","Nuclear weapon of Strength [2]", "Only available <if [Project Stardust] is constructed>",
+			"Blast radius [2]","Ballistic","Limited to [1] per Civilization","Ranged attacks may be performed over obstacles","Uncapturable","Can see over obstacles","May travel on Water tiles without embarking","May withdraw before melee [100]%","[+100000]% Strength <vs [Ranged] units> <when defending>"
+		"attackSound": "nuke"
+	},
+	{
 		"name": "Zeppelin",
 		"unitType": "Helicopter",
 		"movement": 3,
@@ -2307,22 +2323,6 @@
 		"cost": 425,
 		"requiredTech": "Flight",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+30]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Helicopter Gunship",
-		"obsoleteTech": "Computers",
-		"attackSound": "bombing"
-	},
-	{
-		"name": "Zeppelin",
-		"unitType": "Helicopter",
-		"movement": 3,
-		"strength": 50,
-		"rangedStrength": 200,
-		"range": 10,
-		"cost": 10000,
-		"requiredTech": "Flight",
-		"requiredResource": "",
 		"uniques": ["[+30]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Helicopter Gunship",
