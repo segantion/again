@@ -2299,6 +2299,7 @@
 	//heli
 	{
 		"name": "Death star",
+		"unitType": "Siege",
 		"movement": 10,
 		"strength": 500,
 		"uniqueTo": "Galactic Empire",
