@@ -59,6 +59,10 @@
         "name": "Siege Melee",
         "movementType": "Land"
     },
+	   {
+        "name": "Siege",
+        "movementType": "Land"
+    },
     {
         "name": "Siege Ranged",
 	"uniques": ["[-1] Sight"],
