@@ -444,12 +444,9 @@
 		"attackSound": "blasterhit",
 		"promotions": ["Stormtrooper Armor"],
 		 "uniques": ["[+25]% Strength <when attacking>", "Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
-		
-		{"extraImage": "TileSets/FantasyHex/Units/Stormtrooper",
-				"imageSize": 256 },
+		},
 			
 		
-	},
 	{
 		"name": "Infantry",
 		"unitType": "Gunpowder",
