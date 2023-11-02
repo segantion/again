@@ -1614,7 +1614,6 @@
 	{
 		"name": "AT-ST",
 		"unitType": "Armored",
-		"replaces": "Armored Car",
 		"uniqueTo": "Galactic Empire",
 		"movement": 4,
 		"strength": 60,
@@ -1865,7 +1864,6 @@
 	{
 		"name": "AT-AT",
 		"unitType": "Armored",
-		"replaces": "Modern Armor",
 		"uniqueTo": "Galactic Empire",
 		"movement": 3,
 		"strength": 110,
@@ -1873,7 +1871,7 @@
 		"cost": 600,
 		"requiredResource": "Iron",
 		"requiredTech": "Lasers",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit","[50]% chance to intercept air attacks","[+50]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit","[50]% chance to intercept air attacks","[+50]% Strength <vs [Ranged] units> <when defending>","All tiles cost one movement","Eliminates combat penalty for attacking over a river"],
 		"attackSound": "heavyfire",
 		"civilopediaText": [
 			{"text": "The Galactic Empire All Terrain Armored Transport is much stronger, can intercept Air attacks, and is very resistant to ranged units. However it costs more to produce and moves slower."}
@@ -1903,9 +1901,6 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Bow Rider",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "[-10]% Strength <vs [Infantry] units>"],
-		"attackSound": "arrow"
-	},
 	{
 		"name": "War Chariot",
 		"unitType": "Archery",
