@@ -63,11 +63,12 @@
 	},
 	{
 		"name": "Airfield",
-		"unitType": "Tile improvement",
+		"unitType": "Sword",
 		"movement": 0,
+		"strength": 10,
 		"cost": 0,
 		"uniques": ["Uncapturable", "Can carry [5] [Aircraft] units", "Unbuildable", "Cannot move",
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit","Cannot attack"],
 		"requiredTech": "Flight"
 	},
 	{
