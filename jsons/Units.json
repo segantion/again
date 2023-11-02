@@ -2904,17 +2904,7 @@
 		"upgradesTo": "Nuclear Carrier",
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit"]
 	},
-	{
-		"name": "Midway",
-		"unitType": "Aircraft Carrier",
-		"uniqueTo": "America",
-		"movement": 5,
-		"strength": 45,
-		"cost": 375,
-		"requiredTech": "Electronics",
-		"upgradesTo": "Nuclear Carrier",
-		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units", "Never appears as a Barbarian unit"]
-	},
+
 	{
 		"name": "Nuclear Carrier",
 		"unitType": "Aircraft Carrier",
@@ -2925,17 +2915,5 @@
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
 		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Ballistic] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
-	}
-		{
-		"name": "Nimitz",
-		"unitType": "Aircraft Carrier",
-		"uniqueTo": "America",
-		"movement": 6,
-		"strength": 70,
-		"interceptRange": 1,
-		"cost": 550,
-		"requiredTech": "Nuclear Fission",
-		"requiredResource": "Uranium",
-		"uniques": ["Cannot attack", "Can carry [5] [Aircraft] units", "Can carry [2] [Ballistic] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
 	}
 ]
