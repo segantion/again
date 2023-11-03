@@ -1901,7 +1901,8 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Bow Rider",
 		"obsoleteTech": "Chivalry",
-	{
+	},
+		{
 		"name": "War Chariot",
 		"unitType": "Archery",
 		"uniqueTo": "Egypt",
