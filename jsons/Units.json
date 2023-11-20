@@ -2296,7 +2296,7 @@
 	//heli
 	{
 		"name": "ISD-1",
-		"unitType": "Armoured",
+		"unitType": "Armored",
 		"movement": 10,
 		"strength": 300,
 		"uniqueTo": "Galactic Empire",
