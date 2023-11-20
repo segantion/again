@@ -10,6 +10,16 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
+		"name": "Ship Yards",
+		"uniqueTo": "Galactic Empire",
+		"production": 3,
+		"requiredResource": "Aluminum",
+		"cost": 360,
+		"requiredBuilding": "Factory",
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
+		"requiredTech": "Robotics"
+	},
+	{
 		"name": "Terracotta Army",
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
