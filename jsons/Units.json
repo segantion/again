@@ -2316,7 +2316,7 @@
 		"strength": 50,
 		"rangedStrength": 50,
 		"range": 1,
-		"cost": 425,A
+		"cost": 425,
 		"requiredTech": "Flight",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+30]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
