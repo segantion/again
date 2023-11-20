@@ -2305,8 +2305,8 @@
 		"cost": 20000,
 		"requiredTech": "Nuclear Fusion",
 		"uniques": ["[+30]% Strength <vs [City] units>", "No defensive terrain bonus",
-			"All tiles cost 1 movement", "Ignores Zone of Control","Must set up to ranged attack", "Unable to capture cities", "Never appears as a Barbarian unit", 
-			"Ranged attacks may be performed over obstacles","Uncapturable","Can see over obstacles","May travel on Water tiles without embarking" "Only available <if [Ship Yards] is constructed>"]
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", 
+			"Ranged attacks may be performed over obstacles","Uncapturable","Can see over obstacles","May travel on Water tiles without embarking", "Only available <if [Ship Yards] is constructed>"]
 		"attackSound": "nuke"
 	},
 	{
