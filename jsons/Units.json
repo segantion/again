@@ -432,18 +432,17 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Stormtrooper",
+		"name": "Mudtroopers",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
-		"strength": 55,
-		"cost": 300,
+		"strength": 50,
+		"cost": 250,
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Pharmaceuticals",
+		"obsoleteTech": "Telecommunications",
 		"requiredTech": "Replaceable Parts",
 		"attackSound": "blasterhit",
-		"promotions": ["Stormtrooper Armor"],
 		 "uniques": ["[+25]% Strength <when attacking>", "Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
 		},
 			
@@ -460,6 +459,21 @@
 		"uniques": ["Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Stormtrooper",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Modern Infantry",
+		"obsoleteTech": "Telecommunications",
+		"uniques": ["Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
+		"attackSound": "blasterhit"
+		"promotions": ["Stormtrooper Armor"],
+		 "uniques": ["[+25]% Strength <when attacking>", "Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
+	},
+	
 	{
 		"name": "Modern Infantry",
 		"unitType": "Gunpowder",
