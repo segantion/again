@@ -439,11 +439,11 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 250,
-		"upgradesTo": "Infantry",
+		"upgradesTo": "Stormtrooper",
 		"obsoleteTech": "Telecommunications",
 		"requiredTech": "Replaceable Parts",
 		"attackSound": "blasterhit",
-		 "uniques": ["[+25]% Strength <when attacking>", "Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
+		 "uniques": ["[+25]% Strength <when attacking>", "Infantry", "[+15]% Strength <vs [Anti Cavalry] units>","Unit will heal every turn, even if it performs an action"],
 		},
 			
 		
