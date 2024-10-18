@@ -460,12 +460,26 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Red Army",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Russia",
+		"movement": 2,
+		"strength": 70,
+		"cost": 275,
+		"requiredTech": "Pharmaceuticals",
+		"upgradesTo": "Modern Infantry",
+		"obsoleteTech": "Telecommunications",
+		"uniques": ["Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Stormtrooper",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Pharmaceuticals",
+		"uniqueTo": "Galactic Empire",
 		"upgradesTo": "Modern Infantry",
 		"obsoleteTech": "Telecommunications",
 		"uniques": ["Infantry", "[+15]% Strength <vs [Anti Cavalry] units>"],
@@ -2918,7 +2932,17 @@
 		"upgradesTo": "Nuclear Carrier",
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Never appears as a Barbarian unit"]
 	},
-
+	{
+		"name": "USS Enterprise",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "America",
+		"movement": 6,
+		"strength": 40,
+		"cost": 350,
+		"requiredTech": "Electronics",
+		"upgradesTo": "Nuclear Carrier",
+		"uniques": ["Cannot attack", "Can carry [4] [Aircraft] units", "Never appears as a Barbarian unit"]
+	},
 	{
 		"name": "Nuclear Carrier",
 		"unitType": "Aircraft Carrier",
