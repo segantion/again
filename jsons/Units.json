@@ -38,7 +38,7 @@
 	{
 		"name": "Supply Truck",
 		"unitType": "Civilian",
-		"movement": 3,
+		"movement": 4,
 		"uniques": ["All adjacent units heal [25] HP when healing", "Transfer Movement to [Military]"],
 		"cost": 450,
 		"requiredTech": "Pharmaceuticals"
@@ -68,7 +68,7 @@
 		"strength": 10,
 		"cost": 0,
 		"uniques": ["Uncapturable", "Can carry [5] [Aircraft] units", "Unbuildable", "Cannot move",
-			"Never appears as a Barbarian unit","Cannot attack"],
+			"Never appears as a Barbarian unit", "Cannot attack"],
 		"requiredTech": "Flight"
 	},
 	{
