@@ -656,7 +656,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", [15]% Strength bonus for [Military] units within [1] tiles <vs [Armor] units>],
 		"attackSound": "tankshot"
 	},
 	{
@@ -2150,9 +2150,10 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Tank Destroyer",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", [15]% Strength bonus for [Military] units within [1] tiles <vs [Armor] units>],
 		"attackSound": "tankshot"
 	},
+
 	{
 		"name": "Modern Tank Destroyer",
 		"unitType": "Armored",
