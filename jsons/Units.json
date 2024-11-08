@@ -656,7 +656,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>",THISISAPLACEHOLDER],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>",],
 		"attackSound": "tankshot"
 	},
 	{
@@ -667,7 +667,7 @@
 		"cost": 375,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Modern AT Missile",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", THISISAPLACEHOLDER],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", ],
 		"attackSound": "missile"
 	},
 	{
@@ -677,7 +677,7 @@
 		"strength": 70,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", THISISAPLACEHOLDER],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", ],
 		"attackSound": "missile"
 	},
 
@@ -1211,7 +1211,7 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Medieval Siege Tower",
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-50]% Strength <when defending>",
-		"Can only attack [City] units", "Never appears as a Barbarian unit", "[-1] Sight", "[-15]% Strength for enemy [City] units in adjacent [All] tiles", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles" ],
+		"Can only attack [City] units", "Never appears as a Barbarian unit", "[-1] Sight" ],
 		"attackSound": "throw"
 	},
 	{
@@ -1225,7 +1225,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Medieval Siege Tower",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"],
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
@@ -1238,7 +1238,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Grenadier",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"],
+		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit", ],
 		"attackSound": "throw"
 	},
 	{
@@ -1250,7 +1250,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Demolition Sapper",
 		"obsoleteTech": "Military Science",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"],
+		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1262,7 +1262,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Flamethrower",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"],
+		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1274,7 +1274,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Pharmaceuticals",
 		"upgradesTo": "Commando",
-		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"],
+		"uniques": ["[+100]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -1286,7 +1286,7 @@
 		"requiredTech": "Pharmaceuticals",
 		"obsoleteTech": "Telecommunications",
 		"upgradesTo": "Modern Commando",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "Never appears as a Barbarian unit", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"],
+		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -1296,7 +1296,7 @@
 		"strength": 70,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop up to [7] tiles from inside friendly territory", "Never appears as a Barbarian unit", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"],
+		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop up to [7] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 
@@ -2150,7 +2150,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Tank Destroyer",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>",THISISAPLACEHOLDER],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>",],
 		"attackSound": "tankshot"
 	},
 
@@ -2162,7 +2162,7 @@
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+60]% Strength <vs [Armored] units>", THISISAPLACEHOLDER],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+60]% Strength <vs [Armored] units>", ],
 		"attackSound": "tankshot"
 	},
 
