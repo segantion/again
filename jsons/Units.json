@@ -1225,7 +1225,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Medieval Siege Tower",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>", "Can only attack [City] units", "[-1] Sight", "[-15]% Strength for enemy [City] units in adjacent [All] tiles]", "[-15]% Strength for enemy [Tile improvement] units in adjacent [All] tiles"]
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
