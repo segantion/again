@@ -29,7 +29,7 @@
 		"name": "Medic",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["All adjacent units heal [10] extra HP when healing"],
+		"uniques": ["All adjacent units heal [10] HP when healing"],
 		"cost": 275,
 		"requiredTech": "Biology",
 		"upgradesTo": "Supply Truck",
@@ -39,7 +39,7 @@
 		"name": "Supply Truck",
 		"unitType": "Civilian",
 		"movement": 3,
-		"uniques": ["All adjacent units heal [25] extra HP when healing", "Transfer Movement to [Military]"],
+		"uniques": ["All adjacent units heal [25] HP when healing", "Transfer Movement to [Military]"],
 		"cost": 450,
 		"requiredTech": "Pharmaceuticals"
 	},
