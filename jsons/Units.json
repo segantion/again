@@ -656,7 +656,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Bazooka",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", "[15]% Strength bonus for [Military] units within [1] tiles <when adjacent to a [Armored] unit>" ],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>",THISISAPLACEHOLDER],
 		"attackSound": "tankshot"
 	},
 	{
@@ -667,7 +667,7 @@
 		"cost": 375,
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Modern AT Missile",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>",  "[15]% Strength bonus for [Military] units within [1] tiles <when adjacent to a [Armored] unit>"],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", THISISAPLACEHOLDER],
 		"attackSound": "missile"
 	},
 	{
@@ -677,7 +677,7 @@
 		"strength": 70,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>",  "[15]% Strength bonus for [Military] units within [1] tiles <when adjacent to a [Armored] unit>"],
+		"uniques": ["Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", THISISAPLACEHOLDER],
 		"attackSound": "missile"
 	},
 
@@ -2150,7 +2150,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Tank Destroyer",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>", "[15]% Strength bonus for [Military] units within [1] tiles <when adjacent to a [Armored] unit>"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Armored] units>",THISISAPLACEHOLDER],
 		"attackSound": "tankshot"
 	},
 
@@ -2162,7 +2162,7 @@
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"requiredResource": "Oil",
-		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+60]% Strength <vs [Armored] units>",  "[15]% Strength bonus for [Military] units within [1] tiles <when adjacent to a [Armored] unit>"],
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit", "[+60]% Strength <vs [Armored] units>", THISISAPLACEHOLDER],
 		"attackSound": "tankshot"
 	},
 
