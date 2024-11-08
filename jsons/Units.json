@@ -2935,9 +2935,9 @@
 	},
 	{
 		"name": "USS Enterprise",
-		"unitType": "Carrier",
+		"unitType": "Aircraft Carrier",
 		"uniqueTo": "America",
-		"replaces": "Aircraft Carrier",
+		"replaces": "Carrier",
 		"movement": 6,
 		"strength": 40,
 		"cost": 350,
