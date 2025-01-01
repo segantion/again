@@ -55,7 +55,7 @@
 		"name": "Engineer",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 450,
+		"cost": 160,
 		"requiredTech": "Military Science",
 		"uniques": ["Uncapturable","[+1] Movement <after discovering [Combined Arms]>", "[+1] Movement <after discovering [Mobile Tactics]>", "Can transform to [Airfield]","Can transform to [Land bunker]", "Can transform to [Coastal bunker]","Never appears as a Barbarian unit"]
 	
@@ -79,7 +79,7 @@
 		"strength": 40,
 		"rangedStrength": 30,
 		"range": 2,
-		"uniques": ["Uncapturable", "Unbuildable", "Can only attack[land units] units", "Cannot move", "Never appears as a Barbarian unit",
+		"uniques": ["Uncapturable", "Unbuildable",  "Cannot move", "Never appears as a Barbarian unit",
 			"[+65]% Strength <during the [Modern era]>",
 			"[+65]% rangedStrength <during the [Modern era]>",
 			"[+87]% Strength <during the [Atomic era]>",
@@ -88,6 +88,7 @@
 			"[+175]% rangedStrength <during the [Information era]>",
 			"[+280]% Strength <during the [Future era]>",
 			"[+280]% rangedStrength <during the [Future era]>",
+			"[-15]% Strength <vs [Water] units>"
 			],
 		"requiredTech": "Military Science",
 	},
@@ -110,7 +111,8 @@
 			"[+175]% rangedStrength <during the [Information era]>",
 			"[+280]% Strength <during the [Future era]>",
 			"[+280]% rangedStrength <during the [Future era]>",
-			],
+			"[30]% Strength <vs [Water] units>"	
+		],
 		"requiredTech": "Military Science",
 	},
 	//Melee
